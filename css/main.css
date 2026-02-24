@@ -1,0 +1,264 @@
+.main{  
+  background-image: url("https://thumbs.dreamstime.com/b/golden-hour-lagos-nigeria-skyline-victoria-island-golden-hour-lagos-nigeria-skyline-victoria-island-city-landscape-340386341.jpg?w=992");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;  
+  border: 2px green solid;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 200px; 
+    justify-content: space-between;
+    height: 500px;
+    order: 2px red solid;
+    }
+    .main-writeup{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+       
+    }
+    .main-writeup h1{
+      font-size: 40px;
+      margin-bottom: 20px;
+      }
+    .try-us{
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .discover{
+      background-color: rgb(69, 96, 250);
+      padding: 10px;
+      width: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .main-footer{
+      display: flex;
+      align-items: center;
+      background-color: white;
+      height: auto;
+      border-bottom: 4px rgb(69, 96, 250) solid;
+      justify-content: center;
+      width: 800px;
+      padding: 10px;
+    }
+      .category{
+        display: flex;
+        align-items: center;
+        border-right: 2px rgb(69, 96, 250) solid;
+        padding: 10px;
+        width: 200px;
+    
+      }
+        .category input{
+          border: 0;
+          padding: 0;
+          width: 150px;
+        }
+
+        .search {
+          background-color: rgb(69, 96, 250);
+          color: white;
+          height: 50px;
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          margin: 10px;
+             }
+
+.places-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  }
+  .places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+      }
+    .place-text{
+      color: rgb(69, 96, 250);
+      margin-bottom: 20px;
+     }
+    .place-text2{
+      margin-bottom: 20px;
+      font-size: 32px;
+      }
+  .explore-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+    .explore-contain-thumbnail{
+      width: 300px;
+      height: 300px;
+      border: 2px rgb(0, 0, 0) solid;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+     } 
+      .explore-contain-thumbnail img{
+        height: 100%;
+        width: 100%;
+      }
+        .thumbnail-writeup{
+          display: grid;
+          grid-template-columns: 240px 1fr;
+          position: absolute;
+          bottom: 20px;
+          left: 10px;
+        }
+          .explore-loc{
+            display: flex;
+            font-size: 18px;
+            margin-bottom: 5px;
+            }
+          .explore-add-icon{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+          }
+            .explore-add-icon img {
+              height: 20px;
+              width: 20px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 1px black solid;
+              padding: 2px;
+            }
+    .side-scroll {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      }
+      .side-scroll button{
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        border: none;
+      }
+        .blue {
+          background-color: rgb(69, 96, 250);
+        }
+        .scroll{background-color: rgb(221, 221, 221);}
+      
+.featured-container {
+  background-color: rgb(247, 247, 247);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  }
+  .featured-writeup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  .featured{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .featured-place-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 400px;
+    border: 1px rgb(158, 158, 158) solid;
+    
+  }
+    .featured-place-pic{
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 250px;
+      }
+      .featured-place-pic img{
+        height: 100%;
+        width: 100%;
+      }
+      .featured-review{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 25px;
+        left: 25px;
+        width: 100%;
+        justify-content: space-around;
+        }
+        .star{
+          display: flex;
+          flex-direction: row;
+          
+          }
+          .star img {
+            height: 20px;
+            width: 20px;
+          }
+        .featured-review button{
+          border-radius: 50%;
+          height: 100PX;
+          width: 100px;
+          background-color:  rgb(69, 96, 250);
+          border: none;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap:3px;
+          }
+          .date{
+            font-size: 25px;
+          }
+
+    .featured-place-about{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      }
+      .about-head{
+        font-size: 18px;
+      }
+      .about-category{
+        font-size: 14px;
+        color: rgb(69, 96, 250);
+        padding-bottom: 10px;
+      }
+      .about-writeup{
+        font-size: 14px;
+        color:rgb(158, 158, 158);
+      }
+    .featured-place-select{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+      }
+      .featured-place-select div{
+        align-items: center;
+        padding: 20px;
+        color: rgb(158, 158, 158);
+        border: 1px rgb(158, 158, 158) solid;
+        
+      }

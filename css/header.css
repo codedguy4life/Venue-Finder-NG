@@ -1,0 +1,65 @@
+.head-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  height: 100px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: 30px;
+  }
+    .logo-container span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo{
+      background-color: red;
+      height: 100px;
+      font-family: Broadway;
+      font-size: 50px;
+      color: white;
+      padding: 0 20px;
+      
+    }
+    .logo-writeup{
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 5px;
+      font-weight: 600;
+    }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 600px;
+    }
+    .nav-box {
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      padding: 10px;
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+      font-family: Agency FB;
+      cursor: pointer;
+      height: 100%;
+    }
+      .visit-box-list{
+        display: inline-block;
+        padding: 10px;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        font-family: Agency FB;
+        cursor: pointer;
+        }
+        .visit-box-list:hover{
+          background-color: red;
+          color: white;
+          transition: 0.3s ease;
+        }
